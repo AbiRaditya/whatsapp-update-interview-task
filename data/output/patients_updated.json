@@ -1,0 +1,1024 @@
+{
+  "patients_after_phone_update": [
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Jakarta Pusat",
+            "country": "ID",
+            "district": "Menteng",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "31"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "3171"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "317104"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "3171041005"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Cikini Raya No. 28 Rt.02 Rw.01"
+            ],
+            "postalCode": "10330",
+            "state": "DKI Jakarta",
+            "text": "Jl. Cikini Raya No. 28 Rt.02 Rw.01, Cikini, Menteng, Jakarta Pusat, DKI Jakarta 10330",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1992-03-15",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Jakarta"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-001",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801001"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "3171044203920001"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "3171041205110001"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273081+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "SARI",
+            "given": [
+              "DEWI",
+              "LESTARI"
+            ],
+            "text": "DEWI LESTARI SARI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567041",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Surabaya",
+            "country": "ID",
+            "district": "Gubeng",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "35"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "3578"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "357810"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "3578101002"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Gubeng Pojok No. 15 Rt.05 Rw.03"
+            ],
+            "postalCode": "60281",
+            "state": "Jawa Timur",
+            "text": "Jl. Gubeng Pojok No. 15 Rt.05 Rw.03, Gubeng, Surabaya, Jawa Timur 60281",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1990-07-22",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Surabaya"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-002",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801002"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "3578106207900002"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "3578101205110002"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273211+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "PUTRI",
+            "given": [
+              "MAYA",
+              "SARI"
+            ],
+            "text": "MAYA SARI PUTRI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567042",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Bandung",
+            "country": "ID",
+            "district": "Coblong",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "32"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "3273"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "327304"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "3273041001"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Dago No. 45 Rt.01 Rw.02"
+            ],
+            "postalCode": "40135",
+            "state": "Jawa Barat",
+            "text": "Jl. Dago No. 45 Rt.01 Rw.02, Coblong, Bandung, Jawa Barat 40135",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1994-12-08",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Bandung"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-003",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801003"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "3273044812940003"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "3273041205110003"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273269+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "ANGGRAINI",
+            "given": [
+              "RINA",
+              "PERMATA"
+            ],
+            "text": "RINA PERMATA ANGGRAINI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567043",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Medan",
+            "country": "ID",
+            "district": "Medan Petisah",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "12"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "1275"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "127509"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "1275091003"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Petisah No. 88 Rt.03 Rw.07"
+            ],
+            "postalCode": "20112",
+            "state": "Sumatera Utara",
+            "text": "Jl. Petisah No. 88 Rt.03 Rw.07, Medan Petisah, Medan, Sumatera Utara 20112",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1989-11-30",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Medan"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-004",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801004"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "1275095011890004"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "1275091205110004"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273883+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "SIREGAR",
+            "given": [
+              "LINDA",
+              "MARLINA"
+            ],
+            "text": "LINDA MARLINA SIREGAR",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567044",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Makassar",
+            "country": "ID",
+            "district": "Tamalate",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "73"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "7371"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "737109"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "7371091004"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Tamalate Raya No. 67 Rt.04 Rw.06"
+            ],
+            "postalCode": "90221",
+            "state": "Sulawesi Selatan",
+            "text": "Jl. Tamalate Raya No. 67 Rt.04 Rw.06, Tamalate, Makassar, Sulawesi Selatan 90221",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1993-06-18",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Makassar"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-005",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801005"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "7371094806930005"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "7371091205110005"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273508+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "RAHMAN",
+            "given": [
+              "SITI",
+              "AMINAH"
+            ],
+            "text": "SITI AMINAH RAHMAN",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567045",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Denpasar",
+            "country": "ID",
+            "district": "Denpasar Selatan",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "51"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "5171"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "517103"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "5171031002"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Sunset Road No. 123 Rt.02 Rw.04"
+            ],
+            "postalCode": "80361",
+            "state": "Bali",
+            "text": "Jl. Sunset Road No. 123 Rt.02 Rw.04, Denpasar Selatan, Denpasar, Bali 80361",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1991-09-25",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Denpasar"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-006",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801006"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "5171036509910006"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "5171031205110006"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273646+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "DEWI",
+            "given": [
+              "KADEK",
+              "AYU"
+            ],
+            "text": "KADEK AYU DEWI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567046",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Yogyakarta",
+            "country": "ID",
+            "district": "Gondokusuman",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "34"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "3471"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "347103"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "3471031001"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Malioboro No. 200 Rt.01 Rw.05"
+            ],
+            "postalCode": "55224",
+            "state": "DI Yogyakarta",
+            "text": "Jl. Malioboro No. 200 Rt.01 Rw.05, Gondokusuman, Yogyakarta, DI Yogyakarta 55224",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1995-04-12",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Yogyakarta"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-007",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801007"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "3471031204950007"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "3471031205110007"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273150+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "PUSPITASARI",
+            "given": [
+              "ANISA",
+              "FITRI"
+            ],
+            "text": "ANISA FITRI PUSPITASARI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567047",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Semarang",
+            "country": "ID",
+            "district": "Banyumanik",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "33"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "3374"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "337416"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "3374161005"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Banyumanik Raya No. 55 Rt.07 Rw.03"
+            ],
+            "postalCode": "50268",
+            "state": "Jawa Tengah",
+            "text": "Jl. Banyumanik Raya No. 55 Rt.07 Rw.03, Banyumanik, Semarang, Jawa Tengah 50268",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1988-01-14",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Semarang"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-008",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801008"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "3374164401880008"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "3374161205110008"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273582+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "MAHARANI",
+            "given": [
+              "PUTRI",
+              "INDAH"
+            ],
+            "text": "PUTRI INDAH MAHARANI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567048",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Palembang",
+            "country": "ID",
+            "district": "Ilir Timur I",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "16"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "1671"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "167103"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "1671031008"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Sudirman No. 789 Rt.06 Rw.02"
+            ],
+            "postalCode": "30114",
+            "state": "Sumatera Selatan",
+            "text": "Jl. Sudirman No. 789 Rt.06 Rw.02, Ilir Timur I, Palembang, Sumatera Selatan 30114",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1990-10-03",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Palembang"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-009",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801009"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "1671034310900009"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "1671031205110009"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273742+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "LESTARI",
+            "given": [
+              "DEVI",
+              "SARI"
+            ],
+            "text": "DEVI SARI LESTARI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567049",
+            "rank": 1
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "active": true,
+        "address": [
+          {
+            "city": "Balikpapan",
+            "country": "ID",
+            "district": "Balikpapan Selatan",
+            "extension": [
+              {
+                "extension": [
+                  {
+                    "url": "province",
+                    "valueCode": "64"
+                  },
+                  {
+                    "url": "city",
+                    "valueCode": "6472"
+                  },
+                  {
+                    "url": "district",
+                    "valueCode": "647204"
+                  },
+                  {
+                    "url": "village",
+                    "valueCode": "6472041006"
+                  }
+                ],
+                "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/administrativeCode"
+              }
+            ],
+            "line": [
+              "Jl. Ahmad Yani No. 321 Rt.04 Rw.08"
+            ],
+            "postalCode": "76114",
+            "state": "Kalimantan Timur",
+            "text": "Jl. Ahmad Yani No. 321 Rt.04 Rw.08, Balikpapan Selatan, Balikpapan, Kalimantan Timur 76114",
+            "use": "home"
+          }
+        ],
+        "birthDate": "1987-08-20",
+        "deceasedBoolean": false,
+        "extension": [
+          {
+            "url": "https://fhir.kemkes.go.id/r4/StructureDefinition/birthPlace",
+            "valueString": "Balikpapan"
+          }
+        ],
+        "gender": "female",
+        "id": "patient-010",
+        "identifier": [
+          {
+            "system": "https://hie.sid-indonesia.org/id/epus-emr-pkm",
+            "use": "usual",
+            "value": "00801010"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/nik",
+            "use": "official",
+            "value": "6472044008870011"
+          },
+          {
+            "system": "https://fhir.kemkes.go.id/id/kk",
+            "use": "official",
+            "value": "6472041205110010"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "code": "M",
+              "display": "Married",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
+            }
+          ]
+        },
+        "meta": {
+          "lastUpdated": "2025-09-26T15:08:43.273798+07:00",
+          "versionId": "v008"
+        },
+        "name": [
+          {
+            "family": "WULANDARI",
+            "given": [
+              "ERNI",
+              "SEPTIANA"
+            ],
+            "text": "ERNI SEPTIANA WULANDARI",
+            "use": "official"
+          }
+        ],
+        "resourceType": "Patient",
+        "telecom": [
+          {
+            "system": "phone",
+            "use": "mobile",
+            "value": "081234567050",
+            "rank": 1
+          }
+        ]
+      }
+    }
+  ]
+}
